@@ -11,16 +11,45 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
+Virtual Boardroom:
 
+Simulate a real-life interview environment with a digital interface.
+Enable seamless interaction between multiple interviewers and candidates, regardless of location.
+AI-Driven Questions:
+
+Generate personalized question sets based on the candidate's CV and expertise.
+Dynamically adjust question difficulty and focus during the interview.
+Automated Scoring:
+
+Use NLP to analyze candidate responses for relevance and quality.
+Provide objective, quantifiable scores, minimizing human bias.
+Expertise Matching:
+
+Score the relevance of questions to the candidate's specific area of expertise.
+Evaluate the alignment of candidate responses with the questions asked.
+Data-Driven Insights:
+
+Generate detailed reports with performance metrics and bias detection.
+Provide actionable insights for talent assessment and process improvement.
 
 ## Proposed Solution / Architecture Diagram
+![Web-App-Architecture-1](https://github.com/user-attachments/assets/6a24ddf9-b800-4a68-b00d-739735de6bb4)
 
 
 ## Use Cases
+![Use-Case-Diagram-for-Web-based-System](https://github.com/user-attachments/assets/4cf681db-efd1-4071-88ed-9dcf01d966c9)
 
 
 ## Technology Stack
 
 
-## Dependencies
+Frontend: React, HTML5, CSS3, WebRTC.
+Backend: Node.js with Express.js, PostgreSQL, Cloud Services (AWS/GCP/Azure).
+AI/ML (Optional): Python with TensorFlow/PyTorch.
+Other: Git, Docker, WebSockets.
 
+## Dependencies
+Frontend: React, react-router-dom, axios/fetch, UI library (optional).
+Backend: Express.js, database driver (pg, mysql2, etc.), authentication (optional).
+AI/ML: TensorFlow/PyTorch, scikit-learn, NLP libraries (optional).
+General: Testing libraries (Jest, etc.), linting/formatting tools.
