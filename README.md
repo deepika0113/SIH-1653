@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:06.03.2025
+## Register Number:212224100009
+## Name:DEEPIKA.R
 ## Problem Title
 SIH 1653: Web based Selector-Applicant Simulation Software
 ## Problem Description
@@ -11,16 +11,48 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
+Virtual Boardroom:
+
+Simulate a real-life interview environment with a digital interface.
+Enable seamless interaction between multiple interviewers and candidates, regardless of location.
+AI-Driven Questions:
+
+Generate personalized question sets based on the candidate's CV and expertise.
+Dynamically adjust question difficulty and focus during the interview.
+Automated Scoring:
+
+Use NLP to analyze candidate responses for relevance and quality.
+Provide objective, quantifiable scores, minimizing human bias.
+Expertise Matching:
+
+Score the relevance of questions to the candidate's specific area of expertise.
+Evaluate the alignment of candidate responses with the questions asked.
+Data-Driven Insights:
+
+Generate detailed reports with performance metrics and bias detection.
+Provide actionable insights for talent assessment and process improvement.
+
+
+
+
 
 
 ## Proposed Solution / Architecture Diagram
+![Web-App-Architecture-1](https://github.com/user-attachments/assets/e457dfed-896f-497e-ae9b-2bbe738bdf4a)
 
 
 ## Use Cases
+![Use-Case-Diagram-for-Web-based-System](https://github.com/user-attachments/assets/0790368d-74bf-44eb-9d86-8c901dfa81c3)
 
 
 ## Technology Stack
-
+Frontend: React, HTML5, CSS3, WebRTC.
+Backend: Node.js with Express.js, PostgreSQL, Cloud Services (AWS/GCP/Azure).
+AI/ML (Optional): Python with TensorFlow/PyTorch.
+Other: Git, Docker, WebSockets.
 
 ## Dependencies
-
+Frontend: React, react-router-dom, axios/fetch, UI library (optional).
+Backend: Express.js, database driver (pg, mysql2, etc.), authentication (optional).
+AI/ML: TensorFlow/PyTorch, scikit-learn, NLP libraries (optional).
+General: Testing libraries (Jest, etc.), linting/formatting tools.
